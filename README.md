@@ -35,5 +35,5 @@ if animation.is_finished():
 # Changing a type of Animation
 
 ```python
-animation.animationType = Animation.ExampleType
+animation.animationType = Animation.ExampleType()
 ```
