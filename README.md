@@ -31,3 +31,9 @@ print(animation.get())
 if animation.is_finished():
     animation.reversed = not animation.reversed
 ```
+
+# Changing a type of Animation
+
+```python
+animation.animationType = Animation.ExampleType
+```
