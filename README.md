@@ -25,3 +25,9 @@ print(animation.get())
 
 ```
 
+# Making it INFINITE
+
+```python
+if animation.is_finished():
+    animation.reversed = not animation.reversed
+```
